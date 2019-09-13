@@ -1,5 +1,5 @@
 # obscure
-Obscures everything between the tags {exp:obscure}{/exp:obscure} by encoding the contents similarly to the way the <a href="https://docs.expressionengine.com/latest/templates/globals/single-variables.html#encode" target="_blank" rel="noopener">{encode} tag for email</a> works in <a href="https://github.com/ExpressionEngine/ExpressionEngine">ExpressionEngine.</a> Add-on provides additional flexibility by allowing you to include other elements or images within the tag. For example: 
+Obscures everything between the tags {exp:obscure}{/exp:obscure} by encoding the contents similarly to the way the <a href="https://docs.expressionengine.com/latest/templates/globals/single-variables.html#encode" target="_blank" rel="noopener">{encode} tag for email</a> works in <a href="https://github.com/ExpressionEngine/ExpressionEngine">ExpressionEngine.</a> Add-on provides additional flexibility by allowing you to include other elements or images within the tag. For example:
 
     <li>
       {exp:obscure}
@@ -8,7 +8,3 @@ Obscures everything between the tags {exp:obscure}{/exp:obscure} by encoding the
         </a>
        {/exp:obscure}
     </li>
-
-<strong>Currently this add-on only works in EE version 2 & 3. ☹️
-
-Are there any PHP-savvy folks out there interested in updating this code so it works in ExpressionEngine 5? </strong>
