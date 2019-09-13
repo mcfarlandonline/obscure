@@ -154,10 +154,8 @@ for (var i = d.length-1; i >= 0; i = i - 1)
 
     public static function usage()
     {
-
-
-
-        return '';
+        // for performance only load README if inside control panel
+        return REQ === 'CP' ? file_get_contents(dirname(__FILE__).'/README.md') : null;
     }
     // End
 }
