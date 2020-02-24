@@ -3,8 +3,8 @@ Obscures everything between the tags {exp:obscure}{/exp:obscure} by encoding the
 
     <li>
       {exp:obscure}
-        <a href="mailto:megan@netraising.com?subject=I can fix Obscure Add-On">
-          <img src="...envelope-icon.svg" alt="Email Megan" />
+        <a href="mailto:foo-email@domain.com?subject=I can fix Obscure Add-On">
+          <img src="...envelope-icon.svg" alt="Email Foo" />
         </a>
        {/exp:obscure}
     </li>
